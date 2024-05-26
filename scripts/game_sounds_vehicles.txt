@@ -1,0 +1,1824 @@
+"CarDoor_Close"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"rndwave"
+	{
+		"wave"		"vehicles/honda/close_door1.wav"
+		"wave"		"vehicles/honda/close_door2.wav"
+	}
+}
+
+"Car_Skid1"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"		"vehicles/car_skid-1.wav"
+}
+
+"Car_Skid2"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_90dB"
+	"wave"		"vehicles/car_skid-2.wav"
+}
+
+"Car.Wind_Buffet"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"		"vehicles/wind_buffet-1.wav"
+}
+
+"CarDoor_Open"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/honda/open_door1.wav"
+}
+
+"Trunk_Open"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.90"
+	"wave"		"vehicles/trunk_open-1.wav"
+}
+
+"Car_Police_Siren_US"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"wave"		"vehicles/police_siren-2.wav"
+}
+"Car_Police_Siren_EU"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"wave"		"vehicles/police_siren-1.wav"
+}
+"Car_Police_Siren_UK"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"wave"		"vehicles/police_siren-3.wav"
+}
+
+
+"Trunk_Open_SpareTire"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.90"
+	"wave"		"vehicles/trunk_open_sparetire-1.wav"
+}
+
+"Replace_Tire"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_70dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/replace_tire-1.wav"
+}
+
+"Tire_Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_105dB"
+	"wave"		"vehicles/tire_explode-1.wav"
+}
+
+"Vehicle_Critical_Hit"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_105dB"
+	"rndwave"
+	{
+		"wave"		"vehicles/vehicle_crit_hit-1.wav"
+		"wave"		"vehicles/vehicle_crit_hit-2.wav"
+		"wave"		"vehicles/vehicle_crit_hit-3.wav"
+	}
+}
+
+"Windows_Break"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"95, 110"	//Tony; give it some slight variance now.
+	"wave"		"vehicles/glass_break-1.wav"
+}
+
+"Car.Horn_A"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_120dB"
+	"wave"		"vehicles/horn_A-1.wav"
+}
+
+"Car.Horn_B"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_120dB"
+	"wave"		"vehicles/horn_B-1.wav"
+}
+
+"Car.Horn_C"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_120dB"
+	"wave"		"vehicles/horn_C-1.wav"
+}
+
+"Car.Horn_D"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_120dB"
+	"wave"		"vehicles/horn_D-1.wav"
+}
+
+"Car.Horn_E"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_120dB"
+	"wave"		"vehicles/horn_E-1.wav"
+}
+
+"Car.Horn_BTeam"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_120dB"
+	"rndwave"
+	{
+		"wave"		"vehicles/horn_E-1.wav"
+		"wave"		"vehicles/horn_bteam.wav"
+	}
+}
+
+"Car.PeelOut"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_90dB"
+	"rndwave"
+	{
+		"wave"		"vehicles/peel_out-1.wav"
+		"wave"		"vehicles/peel_out-2.wav"
+		"wave"		"vehicles/peel_out-3.wav"
+	}
+}
+
+"Drive_On_Gravel"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_80dB"
+	"wave"		"vehicles/gravel-1.wav"
+}
+"Drive_On_Dirt"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_80dB"
+	"wave"		"vehicles/dirt-1.wav"
+}
+
+"Drive_No_Tire"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLEVEL_90dB"
+	"wave"			"vehicles/notire-1.wav"
+}
+"Corolla_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/Corolla/idle.wav"
+}
+
+"Corolla_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/corolla/start.wav"
+}
+
+"Corolla_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/corolla/stop.wav"
+}
+
+"Corolla_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Corolla/first.wav"
+}
+
+"Corolla_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Corolla/first_throttle_off.wav"
+}
+
+"Corolla_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Corolla/first_throttle_off_mid.wav"
+}
+
+"Corolla_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Corolla/reverse.wav"
+}
+
+"Corolla_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Corolla/second.wav"
+}
+
+"Cutlass_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/Cutlass/idle.wav"
+}
+
+"Cutlass_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/cutlass/start.wav"
+}
+
+"Cutlass_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/cutlass/stop.wav"
+}
+
+"Cutlass_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Cutlass/first.wav"
+}
+
+"Cutlass_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Cutlass/first_throttle_off.wav"
+}
+
+"Cutlass_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Cutlass/first_throttle_off_mid.wav"
+}
+
+"Cutlass_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Cutlass/reverse.wav"
+}
+
+"Cutlass_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Cutlass/second.wav"
+}
+
+"Doorlock1"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.70"
+	"wave"		"vehicles/doorlock-1.wav"
+}
+
+"Doorlock2"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.70"
+	"wave"		"vehicles/doorlock-2.wav"
+}
+
+"Doorlock3"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.70"
+	"wave"		"vehicles/doorlock-3.wav"
+}
+
+"Doorlock4"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.70"
+	"wave"		"vehicles/doorlock-4.wav"
+}
+
+"Ford_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/Ford/idle.wav"
+}
+
+"Ford_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/ford/start.wav"
+}
+
+"Ford_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/ford/stop.wav"
+}
+
+"Ford_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Ford/first.wav"
+}
+
+"Ford_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Ford/first_throttle_off.wav"
+}
+
+"Ford_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Ford/first_throttle_off_mid.wav"
+}
+
+"Ford_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Ford/reverse.wav"
+}
+
+"Ford_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Ford/second.wav"
+}
+
+"Honda_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/Honda/honda_idle_loop1.wav"
+}
+
+"Honda_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.85"
+	"wave"		"vehicles/honda/honda_start_loop1.wav"
+}
+
+"Honda_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/honda/honda_stop1.wav"
+}
+
+"Honda_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Honda/first.wav"
+}
+
+"Honda_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Honda/first_throttle_off.wav"
+}
+
+"Honda_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Honda/first_throttle_off_mid.wav"
+}
+
+"Honda_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/honda/honda_rev_short_loop1.wav"
+}
+
+"Honda_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Honda/second.wav"
+}
+
+"Honda_thirdgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Honda/thrid.wav"
+}
+
+"Honda_fourthgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Honda/fourth.wav"
+}
+
+"Honda_impact_heavy"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"rndwave"
+	{
+		"wave"		"vehicles/honda/impact_heavy1.wav"
+		"wave"		"vehicles/honda/impact_heavy2.wav"
+		"wave"		"vehicles/honda/impact_heavy3.wav"
+		"wave"		"vehicles/honda/impact_heavy4.wav"
+	}
+}
+
+"Honda_impact_medium"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"rndwave"
+	{
+		"wave"		"vehicles/honda/impact_medium1.wav"
+		"wave"		"vehicles/honda/impact_medium2.wav"
+		"wave"		"vehicles/honda/impact_medium3.wav"
+		"wave"		"vehicles/honda/impact_medium4.wav"
+	}
+}
+
+"Honda_rollover"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"rndwave"
+	{
+		"wave"		"vehicles/honda/rollover1.wav"
+		"wave"		"vehicles/honda/rollover2.wav"
+	}
+}
+
+"Honda_Scrape"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"rndwave"
+	{
+		"wave"		"vehicles/honda/scrape1.wav"
+		"wave"		"vehicles/honda/scrape2.wav"
+		"wave"		"vehicles/honda/scrape3.wav"
+	}
+}
+
+"Honda_skid_highfriction"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/honda/skid_highfriction.wav"
+}
+
+"Honda_skid_lowfriction"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/honda/skid_lowfriction.wav"
+}
+
+"Honda_skid_normalfriction"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"rndwave"
+	{
+		"wave"		"vehicles/honda/skid_normalfriction.wav"
+		"wave"		"vehicles/honda/skid_lowfriction.wav"
+		"wave"		"vehicles/honda/skid_highfriction.wav"
+	}
+}
+
+"Lincoln_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/Lincoln/idle.wav"
+}
+
+"Lincoln_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.85"
+	"wave"		"vehicles/lincoln/start.wav"
+}
+
+"Lincoln_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/lincoln/stop.wav"
+}
+
+"Lincoln_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Lincoln/first.wav"
+}
+
+"Lincoln_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Lincoln/first_throttle_off.wav"
+}
+
+"Lincoln_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Lincoln/first_throttle_off_mid.wav"
+}
+
+"Lincoln_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Lincoln/reverse.wav"
+}
+
+"Lincoln_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Lincoln/second.wav"
+}
+
+"Porsche_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/porsche/idle.wav"
+}
+
+"Porsche_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.85"
+	"wave"		"vehicles/porsche/start.wav"
+}
+
+"Porsche_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/porsche/stop.wav"
+}
+
+"Porsche_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/porsche/first.wav"
+}
+
+"Porsche_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/porsche/first_throttle_off.wav"
+}
+
+"Porsche_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/porsche/first_throttle_off_mid.wav"
+}
+
+"Porsche_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/porsche/reverse.wav"
+}
+
+"Porsche_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/porsche/second.wav"
+}
+
+"Truck1_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck1/idle.wav"
+}
+
+"Truck1_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck1/start.wav"
+}
+
+"Truck1_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck1/stop.wav"
+}
+
+"Truck1_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck1/first.wav"
+}
+
+"Truck1_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck1/first_throttle_off.wav"
+}
+
+"Truck1_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck1/first_throttle_off_mid.wav"
+}
+
+"Truck1_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck1/reverse.wav"
+}
+
+"Truck1_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck1/second.wav"
+}
+
+"Truck2_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck2/idle.wav"
+}
+
+"Truck2_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck2/start.wav"
+}
+
+"Truck2_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck2/stop.wav"
+}
+
+"Truck2_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck2/first.wav"
+}
+
+"Truck2_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck2/first_throttle_off.wav"
+}
+
+"Truck2_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck2/first_throttle_off_mid.wav"
+}
+
+"Truck2_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck2/reverse.wav"
+}
+
+"Truck2_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Truck2/second.wav"
+}
+
+"Truck3_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck3/idle.wav"
+}
+
+"Truck3_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck3/start.wav"
+}
+
+"Truck3_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck3/stop.wav"
+}
+
+"Truck3_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck3/first.wav"
+}
+
+"Truck3_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck3/first_throttle_off.wav"
+}
+
+"Truck3_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck3/first_throttle_off_mid.wav"
+}
+
+"Truck3_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck3/reverse.wav"
+}
+
+"Truck3_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck3/second.wav"
+}
+
+"TruckDump_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_dump/start.wav"
+}
+
+"TruckDump_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_dump/stop.wav"
+}
+
+"TruckDump_Forward"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_95dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_dump/forward.wav"
+}
+
+"TruckDump_SecondGear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_95dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_dump/second.wav"
+}
+
+"TruckDump_Idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_dump/idle.wav"
+}
+
+"TruckDump_Reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_dump/reverse.wav"
+}
+
+"TruckDump_ThrottleOff"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_90dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_dump/throttle_off.wav"
+}
+
+"TruckFreight1_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_70dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_freight1/start.wav"
+}
+
+"TruckFreight1_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_IDLE"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_freight1/stop.wav"
+}
+
+"TruckFreight1_Forward"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_freight1/forward.wav"
+}
+
+"TruckFreight1_Idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_freight1/idle.wav"
+}
+
+"TruckFreight1_Reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_freight1/reverse.wav"
+}
+
+"TruckFreight1_ThrottleOff"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.85"
+	"wave"		"vehicles/truck_freight1/throttle_off.wav"
+}
+
+"Van1_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/Van1/idle.wav"
+}
+
+"Van1_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.85"
+	"wave"		"vehicles/van1/start.wav"
+}
+
+"Van1_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/van1/stop.wav"
+}
+
+"Van1_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Van1/first.wav"
+}
+
+"Van1_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Van1/first_throttle_off.wav"
+}
+
+"Van1_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Van1/first_throttle_off_mid.wav"
+}
+
+"Van1_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Van1/reverse.wav"
+}
+
+"Van1_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Van1/second.wav"
+}
+
+"Audi_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/Audi/idle.wav"
+}
+
+"Audi_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/audi/start.wav"
+}
+
+"Audi_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/audi/stop.wav"
+}
+
+"Audi_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Audi/first.wav"
+}
+
+"Audi_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Audi/first_throttle_off.wav"
+}
+
+"Audi_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Audi/first_throttle_off_mid.wav"
+}
+
+"Audi_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Audi/reverse.wav"
+}
+
+"Audi_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/Audi/second.wav"
+}
+
+"BMW_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW/idle.wav"
+}
+
+"BMW_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/bmw/start.wav"
+}
+
+"BMW_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/bmw/stop.wav"
+}
+
+"BMW_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW/first.wav"
+}
+
+"BMW_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW/first_throttle_off.wav"
+}
+
+"BMW_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW/first_throttle_off_mid.wav"
+}
+
+"BMW_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW/reverse.wav"
+}
+
+"BMW_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW/second.wav"
+}
+
+"BMW2_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW2/idle.wav"
+}
+
+"BMW2_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW2/start.wav"
+}
+
+"BMW2_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW2/stop.wav"
+}
+
+"BMW2_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW2/first.wav"
+}
+
+"BMW2_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW2/first_throttle_off.wav"
+}
+
+"BMW2_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW2/first_throttle_off_mid.wav"
+}
+
+"BMW2_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW2/reverse.wav"
+}
+
+"BMW2_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/BMW2/second.wav"
+}
+
+"AlfaRomeo_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/alfa_remeo/idle.wav"
+}
+
+"AlfaRomeo_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/alfa_remeo/start.wav"
+}
+
+"AlfaRomeo_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/alfa_remeo/stop.wav"
+}
+
+"AlfaRomeo_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/alfa_remeo/first.wav"
+}
+
+"AlfaRomeo_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/alfa_remeo/first_throttle_off.wav"
+}
+
+"AlfaRomeo_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/alfa_remeo/first_throttle_off_mid.wav"
+}
+
+"AlfaRomeo_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/alfa_remeo/reverse.wav"
+}
+
+"AlfaRomeo_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/alfa_remeo/second.wav"
+}
+
+"Ferrari_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/ferrari/idle.wav"
+}
+
+"Ferrari_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/ferrari/start.wav"
+}
+
+"Ferrari_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/ferrari/stop.wav"
+}
+
+"Ferrari_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/ferrari/first.wav"
+}
+
+"Ferrari_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/ferrari/first_throttle_off.wav"
+}
+
+"Ferrari_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/ferrari/first_throttle_off_mid.wav"
+}
+
+"Ferrari_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/ferrari/reverse.wav"
+}
+
+"Ferrari_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/ferrari/second.wav"
+}
+
+"Cobra_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/cobra/idle.wav"
+}
+
+"Cobra_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/cobra/start.wav"
+}
+
+"Cobra_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/cobra/stop.wav"
+}
+
+"Cobra_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/cobra/first.wav"
+}
+
+"Cobra_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/cobra/first_throttle_off.wav"
+}
+
+"Cobra_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/cobra/first_throttle_off_mid.wav"
+}
+
+"Cobra_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/cobra/reverse.wav"
+}
+
+"Cobra_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/cobra/second.wav"
+}
+
+"CRX_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/crx/idle.wav"
+}
+
+"CRX_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/crx/start.wav"
+}
+
+"CRX_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/crx/stop.wav"
+}
+
+"CRX_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/crx/first.wav"
+}
+
+"CRX_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/crx/first_throttle_off.wav"
+}
+
+"CRX_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/crx/first_throttle_off_mid.wav"
+}
+
+"CRX_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/crx/reverse.wav"
+}
+
+"CRX_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/crx/second.wav"
+}
+
+"RollsRoyce_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.95"
+	"wave"		"vehicles/rolls_royce/idle.wav"
+}
+
+"RollsRoyce_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.95"
+	"wave"		"vehicles/rolls_royce/start.wav"
+}
+
+"RollsRoyce_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.95"
+	"wave"		"vehicles/rolls_royce/stop.wav"
+}
+
+"RollsRoyce_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.95"
+	"wave"		"vehicles/rolls_royce/first.wav"
+}
+
+"RollsRoyce_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.95"
+	"wave"		"vehicles/rolls_royce/first_throttle_off.wav"
+}
+
+"RollsRoyce_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.95"
+	"wave"		"vehicles/rolls_royce/first_throttle_off_mid.wav"
+}
+
+"RollsRoyce_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.95"
+	"wave"		"vehicles/rolls_royce/reverse.wav"
+}
+
+"RollsRoyce_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.95"
+	"wave"		"vehicles/rolls_royce/second.wav"
+}
+
+"Forklift_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.60"
+	"wave"		"vehicles/industrial/forklift/idle-1.wav"
+}
+
+"Forklift_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.60"
+	"wave"		"vehicles/industrial/forklift/start-1.wav"
+}
+
+"Forklift_engine_stop"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_65dB"
+	"volume"		"0.80"
+	"wave"		"vehicles/industrial/forklift/stop-1.wav"
+}
+
+"Forklift_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/industrial/forklift/forward-1.wav"
+}
+
+"Forklift_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"			"vehicles/industrial/forklift/second-1.wav"
+}
+
+"Forklift_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/industrial/forklift/throttle_off-1.wav"
+}
+
+"Heli.Apache_Rotor"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_180dB"
+	"volume"		"1"
+	"wave"		"vehicles/helicopter/apache/hover-1.wav"
+}
+
+"Heli.Apache_Rotor_Damaged"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_180dB"
+	"volume"		"1"
+	"wave"		"vehicles/helicopter/apache/hover-1_damaged.wav"
+}
+
+"Heli.Apache_Start"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"wave"		"vehicles/helicopter/apache/start-1.wav"
+}
+
+"Heli.Apache_Stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"wave"		"vehicles/helicopter/apache/stop-1.wav"
+}
+
+"Heli.Bell206_Rotor"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_180dB"
+	"volume"		"1"
+	"wave"		"vehicles/helicopter/bell206/hover-1.wav"
+}
+
+"Heli.Bell206_Start"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"wave"		"vehicles/helicopter/bell206/start-1.wav"
+}
+
+"Heli.Bell206_Stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"wave"		"vehicles/helicopter/bell206/stop-1.wav"
+}
+
+"Heli.Bell212_Rotor"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_180dB"
+	"volume"		"1"
+	"wave"		"vehicles/helicopter/bell212/hover-1.wav"
+}
+
+"Heli.Bell212_Rotor_Damaged"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_180dB"
+	"volume"		"1"
+	"wave"		"vehicles/helicopter/bell212/hover-1_damaged.wav"
+}
+
+"Heli.Bell212_Start"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"wave"		"vehicles/helicopter/bell212/start-1.wav"
+}
+
+"Heli.Bell212_Stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"wave"		"vehicles/helicopter/bell212/stop-1.wav"
+}
+
+"Heli.PilotDoor_Close"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.70"
+	"rndwave"
+	{
+		"wave"		"vehicles/helicopter/pilot_door_close-1.wav"
+		"wave"		"vehicles/helicopter/pilot_door_close-2.wav"
+	}
+}
+
+"Heli.WarningSound"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_65dB"
+	"wave"		"vehicles/helicopter/warning_sound-1.wav"
+}
+
+"747.Taxi"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_GUNFIRE"
+	"wave"		"vehicles/_planes/747/taxi-1.wav"
+}
+
+"747.Taxi2"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_GUNFIRE"
+	"wave"		"vehicles/_planes/747/taxi-2.wav"
+}
+
+"747.Flaps"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_100dB"
+	"wave"		"vehicles/_planes/747/flaps-1.wav"
+}
+
+"747.Engine_Flameout"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_100dB"
+	"wave"		"vehicles/_planes/747/engine_flameout.wav"
+}
+
+
+
+
+
+
+
+
+
+
+"Van3_engine_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/van3/idle.wav"
+}
+
+"Van3_engine_start"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"0.85"
+	"wave"		"vehicles/van3/start.wav"
+}
+
+"Van3_engine_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_TALKING"
+	"volume"		"0.85"
+	"wave"		"vehicles/van3/stop.wav"
+}
+
+"Van3_firstgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/van3/first.wav"
+}
+
+"Van3_firstgear_throttle_off"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/van3/first_throttle_off.wav"
+}
+
+"Van3_firstgear_throttle_off_mid"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/van3/first_throttle_off_mid.wav"
+}
+
+"Van3_reverse"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/van3/reverse.wav"
+}
+
+"Van3_secondgear"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_100dB"
+	"volume"		"0.85"
+	"wave"		"vehicles/van3/second.wav"
+}
