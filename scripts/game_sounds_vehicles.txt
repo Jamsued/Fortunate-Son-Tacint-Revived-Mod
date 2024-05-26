@@ -1624,7 +1624,7 @@
 "Heli.Apache_Rotor"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"		"SNDLVL_180dB"
+	"soundlevel"		"SNDLVL_140dB"
 	"volume"		"1"
 	"wave"		"vehicles/helicopter/apache/hover-1.wav"
 }
@@ -1632,7 +1632,7 @@
 "Heli.Apache_Rotor_Damaged"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"		"SNDLVL_180dB"
+	"soundlevel"		"SNDLVL_140dB"
 	"volume"		"1"
 	"wave"		"vehicles/helicopter/apache/hover-1_damaged.wav"
 }
@@ -1654,7 +1654,7 @@
 "Heli.Bell206_Rotor"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"		"SNDLVL_180dB"
+	"soundlevel"		"SNDLVL_140dB"
 	"volume"		"1"
 	"wave"		"vehicles/helicopter/bell206/hover-1.wav"
 }
@@ -1676,7 +1676,7 @@
 "Heli.Bell212_Rotor"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"		"SNDLVL_180dB"
+	"soundlevel"		"SNDLVL_140dB"
 	"volume"		"1"
 	"wave"		"vehicles/helicopter/bell212/hover-1.wav"
 }
@@ -1684,7 +1684,7 @@
 "Heli.Bell212_Rotor_Damaged"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"		"SNDLVL_180dB"
+	"soundlevel"		"SNDLVL_140dB"
 	"volume"		"1"
 	"wave"		"vehicles/helicopter/bell212/hover-1_damaged.wav"
 }
